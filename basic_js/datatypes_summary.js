@@ -2,20 +2,20 @@
 
 // 7 types : nnbbssu ->   null , number ,boolean, bigInt ,string, symbol, undefined
 
-const outSideTemp = null
+const outSideTemp = null // datatype object
 
-const score = 100
+const score = 100   // datatype num
 
 const scoreValue = 100.3;
 
-const isLoggedIn = false;
+const isLoggedIn = false;  // datatype boolen
 
-const stringgg = "sgcgs";
+const stringgg = "sgcgs";  // // datatype string
 
-let userEmail;
+let userEmail;    // datatype undefined
 
 
-const id = Symbol('123')
+const id = Symbol('123') // datatype  symbol
 const anotherId = Symbol('767')
 
 // console.log(typeof id)
@@ -49,6 +49,6 @@ const anotherId = Symbol('767')
 // console.log("hello")
 // }
 
-// console.log(typeof myfunction);
-// console.log(typeof intro);
-// console.log(typeof heros);
+// console.log(typeof myfunction);  ->datatype function
+// console.log(typeof intro);   ->datatype object
+// console.log(typeof heros);      ->datatype object
