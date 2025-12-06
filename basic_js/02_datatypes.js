@@ -23,5 +23,5 @@
 
 
 
-//non-primitive data types
+//non-primitive data types -> array, objet, function
 
