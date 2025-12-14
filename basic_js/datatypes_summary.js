@@ -52,3 +52,32 @@ const anotherId = Symbol('767')
 // console.log(typeof myfunction);  ->datatype function
 // console.log(typeof intro);   ->datatype object
 // console.log(typeof heros);      ->datatype object
+
+
+
+// ***************************************************************************?/
+
+
+//  stack (primitive)  , heap (non perimitive)
+
+/************* stack (primitive) ->( copy )**************** */
+// let myName = "ayushi";
+// let yourName = myName;
+//  yourName = "simme";
+
+//  console.log(myName);
+//  console.log(yourName);
+
+
+/************* heap (non primitive) ->( refrenace )**************** */
+
+// let oneName = {
+//     one: "hehe",
+//     two: "huhu",
+// }
+
+// let twoName = oneName;
+// twoName.one =' hihihi'
+// console.log(twoName.one);
+
+
